@@ -5,8 +5,8 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "luhn_inversed.h"
-#include "luhn-check.h"
+#include "luhn_find_digit.h"
+#include "luhn_check.h"
 
 
 /**

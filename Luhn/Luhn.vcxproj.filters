@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Luhn-main.c">
+    <ClCompile Include="Luhn_find_digit.c">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="Luhn-check.c">
+    <ClCompile Include="Luhn_check.c">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="Luhn_inversed.c">
+    <ClCompile Include="Luhn_main.c">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>

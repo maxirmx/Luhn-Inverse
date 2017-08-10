@@ -2,7 +2,7 @@
 *  Implementation of inversed Luhn algorith
 */
 
-#include "luhn_inversed.h"
+#include "luhn_find_digit.h"
 
 
 /**

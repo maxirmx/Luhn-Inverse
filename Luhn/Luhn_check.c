@@ -4,7 +4,7 @@
 
 #include <string.h>
 
-#include "luhn-check.h"
+#include "luhn_check.h"
 
 /**
 *  Luhn check algorithm:
