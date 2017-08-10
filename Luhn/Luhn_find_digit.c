@@ -1,12 +1,11 @@
 /**
-*  Implementation of inversed Luhn algorith
+*  Implementation of an algoritm to find digit at given PAN position
 */
 
 #include "luhn_find_digit.h"
 
 
 /**
- *  Inversed Luhn algorith:
  *    Input: 
  *       - PAN, including trailing check digit
  *       - position of the digit to alter in order to conform to Luhn check
@@ -26,7 +25,7 @@
  */
 
  /**
- *   function luhn_inversed  implements algorithm as described above for fixed length PAN (14 or 15 digits)
+ *   function luhn_find_digit  implements algorithm as described above for fixed length PAN (14 or 15 digits)
  *   Variable length is not a problem but will add an extra call to strlen
  *
  *   @param const char cc[16] - PAN to process with check digit in the trailing position
@@ -46,7 +45,7 @@
 #define  E_LUHN_ERROR_DIGIT      -3  
 
 
-char luhn_inversed(const char cc[16], unsigned int position)
+char luhn_find_digit(const char cc[16], unsigned int position)
 {
 /**
  *   m provides for table based calculation for the digits in even positions in the inversed PAN:

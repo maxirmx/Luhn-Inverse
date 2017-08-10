@@ -26,7 +26,7 @@ void process_PAN(char * PAN)
 		for (j = 0; j < strlen(PAN)-1; j++)
 		{
 			printf("    Altering at position %d\t", j);
-			altd = luhn_inversed(PAN, j);
+			altd = luhn_find_digit(PAN, j);
 			if (altd < 0) printf("\n         %25s\n", error_message(altd));
 			else
 			{

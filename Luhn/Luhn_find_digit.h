@@ -1,7 +1,7 @@
 #pragma once
 
 /**
-*   function luhn_inversed  implements inversed Luhn algorithm for fixed length PAN (14 or 15 digits)
+*   function luhn_find_digit  implements an algoritm to find PAN digit at given position for fixed length PAN (14 or 15 digits)
 *
 *   @param const char cc[16] - PAN to process with check digit in the trailing position
 *                              If it is 14 digits PAN char[15] shall be 0
@@ -13,7 +13,7 @@
 *                       E_LUHN_ERROR_PROBLEM  -2  -- the problem cannot be solved
 *                       E_LUHN_ERROR_DIGIT    -3  -- invalid digit
 *
-*    More details @ Luhn.c
+*    More details @ luhn_find_digit.c
 */
 
 
@@ -21,7 +21,7 @@
 #define  E_LUHN_ERROR_PROBLEM    -2  
 #define  E_LUHN_ERROR_DIGIT      -3  
 
-char luhn_inversed(const char cc[16], unsigned int position);
+char luhn_find_digit(const char cc[16], unsigned int position);
 
 /**
 *   function error_message  small helper to improve error output

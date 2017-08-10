@@ -26,10 +26,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Luhn-check.h">
+    <ClInclude Include="Luhn_find_digit.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="Luhn_inversed.h">
+    <ClInclude Include="Luhn_check.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
   </ItemGroup>

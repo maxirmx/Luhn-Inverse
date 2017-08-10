@@ -152,8 +152,8 @@
     <ClCompile Include="Luhn_check.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Luhn_inversed.h" />
-    <ClInclude Include="Luhn-check.h" />
+    <ClInclude Include="Luhn_find_digit.h" />
+    <ClInclude Include="Luhn_check.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
