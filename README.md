@@ -1,2 +1,3 @@
-# Luhn-Inverse
-Inverse of Luhn algorithm
+# Luhn functions
+- Luhn PAN check
+- A function to find PAN digit at given position 
